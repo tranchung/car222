@@ -107,18 +107,24 @@ opacity: 0.7;
 
 }
 @-webkit-keyframes myfirst {
-    0%   {background: red; right: 0px; bottom: 0px;}
-    25%  {background: yellow; right: 100px; bottom: 0px;}
+     0%   {background: red; right: 0px; bottom: 0px;}
+    10%	  {background: yellow; right: 100px; bottom: 0px;}
+    25%  {background: yellow; right: 100px; bottom: 100px;}
+    40%		{background: yellow; right: 50px; bottom: 100px;}
     50%  {background: blue; right: 100px; bottom: 200px;}
     75%  {background: green; right: 0px; bottom: 200px;}
+    90% {background: green; right: 100px; bottom: 50px;}
     100% {background: red; right: 0px; bottom: 0px;}
 }
 
 @keyframes myfirst {
-    0%   {background: red; right: 0px; bottom: 0px;}
-    25%  {background: yellow; right: 100px; bottom: 0px;}
-    50%  {background: blue; right: 100px; bottom: 100px;}
-    75%  {background: green; right: 0px; bottom: 100px;}
+      0%   {background: red; right: 0px; bottom: 0px;}
+    10%	  {background: yellow; right: 100px; bottom: 0px;}
+    25%  {background: yellow; right: 100px; bottom: 100px;}
+    40%		{background: yellow; right: 50px; bottom: 100px;}
+    50%  {background: blue; right: 100px; bottom: 200px;}
+    75%  {background: green; right: 0px; bottom: 200px;}
+    90% {background: green; right: 100px; bottom: 50px;}
     100% {background: red; right: 0px; bottom: 0px;}
 }
     .hang2 img:hover{
